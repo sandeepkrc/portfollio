@@ -1,48 +1,58 @@
-[![Nihory - Portfolio site template](https://i.ibb.co/Y8CRzL4/Nihory-basic-preview-image.png)](https://nihory-basic.netlify.app/)
-.
-.
+# DevFolio - Modern Developer Portfolio
 
-Nihory is a creative 🌈 personal & portfolio template based on HTML, CSS and Javascript. You can use it for your personal resume, CV or your portfolio. It will help you to present your self even your Business & portfolio more smartly and easily. Nihory is written in valid and clean HTML & CSS3 code. It’s easy to customize 🖌
+[![DevFolio - Professional Portfolio Template](https://i.ibb.co/Y8CRzL4/Nihory-basic-preview-image.png)](https://nihory-basic.netlify.app/)
 
+## About DevFolio
 
-## Features 🧯
+DevFolio is a modern and professional portfolio template crafted by Sandeep Kumar. Built with HTML5, CSS3, and JavaScript, it's perfect for developers and tech professionals looking to showcase their skills and projects. The template features a clean, minimalist design with optimal performance and easy customization options.
 
-* 🔥 Clean and Professional Design
-* 🔥 100% Responsive
-* 🔥 Clean and commented code
-* 🔥 W3C Valid HTML5 & CSS3
-* 🔥 Free Fonts from Google Fonts
-* 🔥 Free Icons from Font Awesome
-* 🔥 Crossover Browsers Compatibility
-* 🔥 Easy Customization
-* 🔥 One Html Page Code
-* 🔥 Free Future Updates
-* 🎧 Friendly 5 stars Support 24/7
+[View Live Demo](https://nihory-basic.netlify.app/)
 
-.
-.
+## Core Features
 
-[![Nihory - Portfolio site template live demo](https://i.ibb.co/vwN8cgW/live-demo.png)](https://nihory-basic.netlify.app/)
+- 💻 Modern and Professional Design
+- 📱 Fully Responsive Layout
+- ⚡ Fast Loading Performance
+- ✨ Clean Code Architecture
+- 🎨 Easy Customization
+- 🔍 SEO Optimized
+- 🌐 Cross-Browser Compatible
+- 📄 Single Page Application
+- 🔄 Regular Updates
+- 💬 Dedicated Support
 
-.
-.
+## Tech Stack
 
-## Fonts Used 🏴‍☠️🏴🏳🏳‍🌈
-1) [Poppins](https://fonts.google.com/specimen/Poppins?query=pop)
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Font Awesome Icons
 
+## Resources
 
+### Typography
+- [Poppins](https://fonts.google.com/specimen/Poppins) - Primary Font
 
-## Icons Used 🥑🌴
-- [BoxIcons](https://boxicons.com/)
+### Icon Library
+- [BoxIcons](https://boxicons.com/) - Modern Icon Set
 
+### Image Sources
+- Behance
+- Unsplash
+- Pexels
 
+## Support
 
-## Image Credits 🛡
-* 📸 Behance
-* 📸 Unsplash
-* 📸 Pexels
-<br/>
-<br/>
+If you find this template useful, consider supporting my work:
 
+[![Support My Work](https://i.ibb.co/7rR9S4L/buy-me-a-coffee.png)](https://www.buymeacoffee.com/sandeepkumar)
 
-[![Atul - Buy Me A Coffee](https://i.ibb.co/7rR9S4L/buy-me-a-coffee.png)](https://www.buymeacoffee.com/atulcodex)
+## Get in Touch
+
+- Portfolio: [sandeepkumar.dev](https://sandeepkumar.dev)
+- GitHub: [@sandeepkumar](https://github.com/sandeepkumar)
+- LinkedIn: [Sandeep Kumar](https://linkedin.com/in/sandeepkumar)
+
+---
+© 2025 Sandeep Kumar. All rights reserved.
