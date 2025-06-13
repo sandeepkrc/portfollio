@@ -46,13 +46,13 @@ DevFolio is a modern and professional portfolio template crafted by Sandeep Kuma
 
 If you find this template useful, consider supporting my work:
 
-[![Support My Work](https://i.ibb.co/7rR9S4L/buy-me-a-coffee.png)](https://www.buymeacoffee.com/sandeepkumar)
+[![Support My Work]()
 
 ## Get in Touch
 
-- Portfolio: [sandeepkumar.dev](https://sandeepkumar.dev)
-- GitHub: [@sandeepkumar](https://github.com/sandeepkumar)
-- LinkedIn: [Sandeep Kumar](https://linkedin.com/in/sandeepkumar)
+- Portfolio: [sandeepkumar.dev](https://remarkable-otter-bc422f.netlify.app/)
+- GitHub: [@sandeepkumar](https://github.com/sandeepkrc)
+- LinkedIn: [Sandeep Kumar](https://www.linkedin.com/in/sandeep-kumar-0116b0165)
 
 ---
 © 2025 Sandeep Kumar. All rights reserved.
