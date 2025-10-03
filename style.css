@@ -484,10 +484,44 @@ img
 {
     width: 90%;
 }
+.skills__burp
+{
+    width: 75%;
+}
 
 .skills__python
 {
     width: 60%;
+}
+.skills__drf
+{   
+    width: 80%;
+}
+.skills__django
+{
+    width: 70%;
+}
+.skills__db
+{
+    width: 65%;
+}
+
+.skills__security
+{
+    width: 80%;
+}
+
+.skills__cicd
+{
+    width: 85%;
+}
+.skills__docker
+{
+    width: 70%;
+}
+.skills__azure
+{
+width: 60%;
 }
 
 /* -------------------------------- Education ---------------------------- */
