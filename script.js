@@ -1,48 +1,52 @@
-// Menu show Y hidden
-const navMenu = document.getElementById('nav-menu'),
-      toggleMenu = document.getElementById('nav-toggle'),
-      closeMenu = document.getElementById('nav-close');
+/*===== MENU SHOW =====*/ 
+const showMenu = (toggleId, navId) =>{
+    const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId)
 
-// Show
-toggleMenu.addEventListener('click', ()=>{
-    navMenu.classList.toggle('show');
-});
+    if(toggle && nav){
+        toggle.addEventListener('click', ()=>{
+            nav.classList.add('show')
+        })
+    }
+}
+showMenu('nav-toggle','nav-menu')
 
-// Hidden
-closeMenu.addEventListener('click', ()=>{
-    navMenu.classList.remove('show');
-});
+/*===== MENU REMOVE =====*/
+const toggle = document.getElementById('nav-toggle'),
+nav = document.getElementById('nav-menu'),
+navClose = document.getElementById('nav-close')
 
-// Remove menu
-const navLink = document.querySelectorAll('.nav__link');
+if(navClose){
+    navClose.addEventListener('click', ()=>{
+        nav.classList.remove('show')
+    })
+}
 
-function linkAction()
-{
-    navMenu.classList.remove('show');
-};
+/*===== REMOVE MENU MOBILE =====*/
+const navLink = document.querySelectorAll('.nav__link')
 
-navLink.forEach(n => n.addEventListener('click', linkAction));
+function linkAction(){
+    const navMenu = document.getElementById('nav-menu')
+    navMenu.classList.remove('show')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction))
 
-// Scroll ections active link
-const sections = document.querySelectorAll('section[id]');
-
-window.addEventListener('scroll', scrollActive);
+/*===== SCROLL SECTIONS ACTIVE LINK =====*/
+const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
     const scrollY = window.pageYOffset
 
-    sections.forEach(current => {
+    sections.forEach(current =>{
         const sectionHeight = current.offsetHeight
-        const sectionTop = current.offsetTop - 50
+        const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute('id')
 
-        if(scrollY > sectionTop && scrollY <= sectionTop +sectionHeight)
-        {
-            document.querySelector('.nav__menu a[href*=' + sectionId +']').classList.add('active')
-        }
-        else
-        {
-            document.querySelector('.nav__menu a[href*=' + sectionId +']').classList.remove('active')
+        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active')
+        }else{
+            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
         }
     })
 }
+window.addEventListener('scroll', scrollActive)
